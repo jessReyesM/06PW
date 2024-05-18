@@ -5,3 +5,42 @@ body {
   font-size: 2rem;
   font-family: "Roboto", sans-serif;
 }
+/* ul {
+  text-align: center;
+  line-height: 1.6;
+  /* list-style-position: inside;
+  list-style-type: square;
+  list-style-image: url('../images/checkmark.png'); 
+  list-style: square url('../images/checkmark.png') inside;
+} */
+ol {
+  text-align: center;
+  list-style-position: inside;
+  line-height: 1.6;
+}
+/*li{
+  border: 2px dotted steelblue;
+  list-style-position: inside;
+}*/
+/*
+ul li:nth-child(2) {
+  background-color: lightblue;
+}*/
+
+ul {
+  text-align: center;
+  line-height: 1.6;
+}
+
+
+ul li:nth-child(odd) {
+  background-color: lightblue;
+  color: teal;
+}
+
+ul ::marker {
+  color: springgreen;
+  font-size: 2rem;
+  font-family: fantasy;
+  content: "👉🏼";
+}
